@@ -20,7 +20,7 @@ public class Datatypes {
 		3.Character 
 			1.char : 2 byte of data 
 		4.Boolean
-		 	1.boolean : 1 bit of data
+		 	1.boolean : 1 bit of data.
 		*/
 		
 		int value = 9/2;
