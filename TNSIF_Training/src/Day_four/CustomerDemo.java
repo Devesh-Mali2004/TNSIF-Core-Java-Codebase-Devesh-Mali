@@ -23,7 +23,7 @@ public class CustomerDemo
 		System.out.println(c1);
 		
 		Customer c2=new Customer (Name,id,city);
-		System.out.println(c2);s
+		System.out.println(c2);
 		System.out.println(c2.getCustomerCity());
 		System.out.println(c2.getCustomerId());
 		System.out.println(c2.getCustomerName());
