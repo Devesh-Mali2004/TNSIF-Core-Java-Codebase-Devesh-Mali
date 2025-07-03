@@ -45,8 +45,8 @@ public class hierarchicalinheritancedemo extends Hiearachical {
 
 	@Override
 	public String toString() {
-		return "hierarchicalinheritancedemo [empId=" + empId + ", salary=" + salary + ", dept=" + dept + ", getName()="
-				+ getName() + ", getCity()=" + getCity() + "]";
+		return "hierarchicalinheritancedemo [empId=" + empId + ", salary=" + salary + ", dept=" + dept + ", Name="
+				+ getName() + ", City=" + getCity() + "]";
 	}
 	
 	
