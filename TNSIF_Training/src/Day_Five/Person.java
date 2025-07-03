@@ -3,4 +3,43 @@ package Day_Five;
 public class Person {
 	private String name;
 	private Address address;
+	
+	//Parameterized constructor
+	public Person(String name, Address address) {
+		this.name = name;
+		this.address = address;
+	}
+
+	//Getter and setter method 
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Address getAddress() {
+		return address;
+	}
+
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+	
+	public void displayInfo()
+	{
+		System.out.println("Name :" +name);
+		System.out.println("Address: "+address.getStreet()+","+address.getCity()+","+address.getState()+","+address.getPostalCode());
+	}
+
+
+	//To String Method
+
+	@Override
+	public String toString() {
+		return "Person [name=" + name + ", address=" + address + "]";
+	}
+	
 }
