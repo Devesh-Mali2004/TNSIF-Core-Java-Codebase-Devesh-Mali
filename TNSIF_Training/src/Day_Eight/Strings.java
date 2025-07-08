@@ -20,10 +20,21 @@ public class Strings {
 		String s4 = s3.toLowerCase(); // Uppercase
 		System.out.println(s4);
 		
-		System.out.println(s3.length()); // length start from 1 
+		System.out.println(s3.length()); // len6gth start from 1 
 		
 		System.out.println(s3.substring(3,5)); // In these we give the begininng and end index 
 		
+		System.out.println(s3.trim());
+		
+		System.out.println(s3.isEmpty());
+		
+		System.out.println(s3.stripTrailing());
+		
+		//String comparison
+		
+		System.out.println("Case 1:"+ s1.equals(s2));//
+		System.out.println("Case 2:"+ s1 == s2); //
+
 		
 	}
 }
