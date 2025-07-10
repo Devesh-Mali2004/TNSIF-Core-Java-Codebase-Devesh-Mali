@@ -1,6 +1,5 @@
 package Day_Ten;
 public class negativeException extends Exception{
-
 	public negativeException(String str) {
 		super(str);
 	}
@@ -8,4 +7,4 @@ public class negativeException extends Exception{
 		super("percentage should not be negative");
 	}
 	
-}
+} 

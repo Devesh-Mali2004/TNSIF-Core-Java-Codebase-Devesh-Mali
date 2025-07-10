@@ -21,7 +21,7 @@ public class UsingThrow {
 					throw new greaterValueException();}
 					else System.out.println("Valid percentage");
 			
-			
+		
 		}
 		catch(negativeException|greaterValueException e) {
 			System.err.println("Error...."+e.getMessage());
